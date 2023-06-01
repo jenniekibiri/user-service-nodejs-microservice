@@ -5,10 +5,10 @@ services:
     ports:
       - "8001:8000"
     volumes:
-      - .:/app
+      - .:/app 
     depends_on:
       - users_db
- 
+    command: npm run start
 
   users_db:
     image: mysql:8

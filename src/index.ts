@@ -3,7 +3,7 @@ import cors from "cors";
 import { createConnection } from "typeorm";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
-import { createClient } from "redis";
+
 import { routes } from "./routes";
 
 dotenv.config();
