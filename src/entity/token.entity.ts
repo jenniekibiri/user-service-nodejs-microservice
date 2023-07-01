@@ -20,5 +20,5 @@ export class Token {
   created_at: Date;
 
   @Column()
-  expires_at: Date;
+  expired_at: Date;
 }
