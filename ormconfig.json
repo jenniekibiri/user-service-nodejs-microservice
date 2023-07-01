@@ -1,10 +1,10 @@
 {
   "type": "mysql",
-  "host": "users_db",
-  "port": 3306,
+  "host": "host.docker.internal",
+  "port": 33066,
   "username": "root",
   "password": "root",
-  "database": "users",
+  "database": "ambassador",
   "synchronize": true,
   "logging": false,
   "entities": [
